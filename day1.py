@@ -1,7 +1,7 @@
 def find_password_part1():
     currPos = 50; # dial starts pointing at 50
     password = 0;
-    with open('day1_input', 'r') as file:
+    with open('day1_input.txt', 'r') as file:
         for line in file:
             line = line.strip()
             direction = line[0]  # first character, e.g., 'R'
@@ -23,7 +23,7 @@ print(find_password_part1());
 def find_password_part2():
     currPos = 50; # dial starts pointing at 50
     hit_zero = 0;
-    with open('day1_input', 'r') as file:
+    with open('day1_input.txt', 'r') as file:
         for line in file:
             line = line.strip()
             direction = line[0]  # first character, e.g., 'R'
